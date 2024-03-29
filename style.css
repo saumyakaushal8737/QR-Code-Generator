@@ -1,0 +1,103 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color:#450920;
+}
+.container
+{
+    width:340px;
+    background-color:#a53860;
+    border:1px solid #da627d ;
+    border-radius:10px;
+    position:absolute;
+    top:30%;
+    left:40%;
+    padding:20px;
+    font-size:13px;
+    font-weight:none;
+}
+.container h2{
+    color:#f9dbbd;
+    margin-bottom:10px;
+}
+.box1
+{
+    
+    background-color: #fcedde;
+    margin-top:10px;
+    margin-bottom:15px;
+    outline:none;
+    padding:12px 10px;
+    border:2px solid #450920; 
+    width:93%;
+    border-radius:8px;
+}
+.btn
+{
+    margin-top:3%;
+    margin-bottom:5%;
+    height:50%;
+    width:100%;
+    background-color:#450920;
+    border-radius:8px;
+    text-align:center;
+    font-size:15px;
+    border:2px;
+    padding:20px;
+    outline:none;
+    color:#f9dbbd;
+    cursor:pointer;
+}
+.image
+{
+    width:200px;
+    border-radius:5px;
+    min-height:0;
+    overflow:hidden;
+    transition: max-height 2s;
+    margin:0 50px;
+    display:flex;
+    justify-content:center;
+}
+.image img
+{
+  width:100%;
+  padding:10px;
+
+}
+.image.showImg
+{
+   max-height:300px;
+   margin:10px auto;
+   border:2px solid black;
+}
+.error
+{
+    animation:shake 0.1s linear 8;
+}
+@keyframes shake {
+    0%
+    {
+        transform:translateX(0);
+    }
+    25%
+    {
+        transform:translateX(-2px);
+    }
+    50%
+    {
+        transform:translateX(0);
+    }
+    75%
+    {
+        transform:translateX(2px);
+    }
+    100%
+    {
+        transform:translateX(0px);
+    }
+}
